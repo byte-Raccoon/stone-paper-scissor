@@ -69,3 +69,25 @@ img{
   background-color: aquamarine;
   border: 1px solid black;
 }
+
+@media (max-width: 480px) {
+  /* *{ width: 90%;} */
+  .heading {font-size: 1rem;}
+  .choices {display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            margin-left: auto;
+            margin-right: auto;}
+  .scoreBoard {gap : 1rem;
+              font-size: 1rem;
+              margin-top: 10px;}
+  #compScore {margin-left: 8vw;}
+  .choice {height: 30%;
+          width: 30%;}
+  img {height: 100%;
+        width: 100%;}
+  .result {margin-top: 1rem;
+          width: 99vw;}
+}
