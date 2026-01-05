@@ -62,7 +62,7 @@ img{
   margin-left: 50px;
 }
 
-.result{
+#result{
   text-align: center;
   padding: 5px;
   margin-top: 5rem;
@@ -71,8 +71,10 @@ img{
 }
 
 @media (max-width: 480px) {
-  /* *{ width: 90%;} */
-  .heading {font-size: 1rem;}
+  *{ outline: 2px dashed red;
+    box-sizing:  border-box;}
+  .heading {font-size: 1.5rem;
+            width: 100vw}
   .choices {display: flex;
             flex-direction: column;
             align-items: center;
@@ -88,6 +90,6 @@ img{
           width: 30%;}
   img {height: 100%;
         width: 100%;}
-  .result {margin-top: 1rem;
-          width: 99vw;}
+  #result {margin-top: 1rem;
+          width: 100vw;}
 }
